@@ -23,7 +23,7 @@ public class MyExceptions {
 
         try {
             double s3 = averageScore(90, "0");
-            System.out.println("Average score of (90,0) is " + s3);//this gives Infinity. double or float numbers
+            //System.out.println("Average score of (90,0) is " + s3);//this gives Infinity. double or float numbers
             // divided by 0 return Infinity, to return ArithmeticException / by zero, they need to be of type int
         } catch (ArithmeticException s) {
             System.out.println("Average score of (90,0) is an Arithmetic Exception");
